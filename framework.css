@@ -1,0 +1,91 @@
+<!doctype html>
+ 
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content='text/html'; charset="uft-8">
+        <meta name='viewport' content='width=device-width, height=device-height,initial-scale=1, maximum-scale=1, user-scalable=no'>
+        <meta http-equiv="X-UA-Compatiable" content="IE=EDGE"> 
+
+<!--links to css and fonts-->   
+ 
+ <link rel="stylesheet" type="text/css" href="css/styles.css">
+ <title>Boiler Plate</title>
+  
+ 
+</head>
+      
+      <body> 
+        <div id='container'>
+         <header id="header">
+          <h1> Flowers </h1>  
+             </header>
+            <nav id="nav"> 
+            <ul class='button wrap'>
+                <button data-toggle="modal" data-target="#lilies_modal">
+            Lilies</button>
+                <button>Roses</button>
+                <button>Coronations</button>
+                <button>Daiseys</button>
+            </ul>
+            </nav>
+
+        <div id='middle wrapper'>
+         <div id='middle-wrapper-width'>
+            <div id='main-content-wrapper'>
+             <div class= 'side-by-side'>
+                <section class='image-content'> 
+                 
+                 <img src='images/flowerlogo.png'> 
+                <article> 
+                 <h2>Summary</h2> 
+                    <p>In 1967 David Cheever, a graduate student in horticulture at Colorado State University, wrote a term paper titled “Bogotá, Colombia as a Cut-Flower Exporter for World Markets.” The paper suggested that the savanna near Colombia’s capital was an ideal place to grow flowers to sell in the United States.</p>
+                
+                 </article>
+                    <h4>
+                    <a href='https://www.1800flowers.com/'> Lainey Dent
+                        </a>
+                    </h4>                
+                 </section>
+                </div>
+                <!--end side by side-->
+                <section id='Locations'> 
+                <h5>
+                    LOCATIONS: <span> Paola|Olathe|Ottawa|Springhill </span>
+                    </h5>
+                </section>
+                </div>
+           <!--end of main-content-wrapper--> 
+             <div id="aside-content-wrapper">
+                <aside id= 'aside-right'>
+                    <h3> Options</h3>
+                    <ul id="Options">
+                        <li>Delivery</li>
+                        <li>Occasion</li>
+                        <li>Arrangements</li>
+                        <li>Sales</li>
+                    </ul>
+                 </aside>
+               </div>
+             <!-- end-of-aside-content-wrapper--> 
+             <!-- end max-width-->
+             </div>
+            <!--end of middle-wrapper--> 
+             
+             <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
+            </button>
+             </div>
+            
+<!--End of middle-wrapper-->
+    </div> 
+          <div id= 'favorite-sites'>
+          <ul> 
+              <li> <img class=img-responsive src='images/flower4.jpg'> </li>
+              <li> <img class=img-responsive src='images/flower1.jpg'> </li> 
+              <li> <img class=img-responsive src='images/flower2.jpg'> </li>
+              <li> <img class=img-responsive src='images/flower3.jpg'> </li>
+          </ul>
+          </div>
+          
+         
+<!--End of container-->
+ <footer> The End </footer>
